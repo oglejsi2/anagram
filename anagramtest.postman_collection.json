@@ -1,0 +1,183 @@
+{
+	"id": "21ec7ee4-259e-f2dc-2b42-438c29ee1393",
+	"name": "anagramtest",
+	"description": "",
+	"order": [
+		"808bd522-428c-8032-36a4-dabaa8a857e5",
+		"fbad7ea7-d8bf-8968-a58a-11c27a0b65cc"
+	],
+	"folders": [
+		{
+			"name": "anagramtest",
+			"description": "",
+			"collectionId": "21ec7ee4-259e-f2dc-2b42-438c29ee1393",
+			"order": [
+				"a9480929-bbac-eaeb-4888-7537bd08bf85",
+				"bb52e4ff-952d-a4f3-587e-ac4b8d6df29d"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "aa6c7474-f883-aa42-9009-a873ff64d553"
+		}
+	],
+	"folders_order": [
+		"aa6c7474-f883-aa42-9009-a873ff64d553"
+	],
+	"timestamp": 1500585748056,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "808bd522-428c-8032-36a4-dabaa8a857e5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/anagram?source=stte&target=test1",
+			"queryParams": [
+				{
+					"key": "source",
+					"value": "stte",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "target",
+					"value": "test1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "21ec7ee4-259e-f2dc-2b42-438c29ee1393",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/anagram?source=test&target=test1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1500586149173,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a9480929-bbac-eaeb-4888-7537bd08bf85",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/anagram?source=stte&target=test",
+			"queryParams": [
+				{
+					"key": "source",
+					"value": "stte",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "target",
+					"value": "test",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500586033010,
+			"name": "http://localhost:8080/anagram?source=test&target=test",
+			"description": "",
+			"collectionId": "21ec7ee4-259e-f2dc-2b42-438c29ee1393",
+			"responses": []
+		},
+		{
+			"id": "bb52e4ff-952d-a4f3-587e-ac4b8d6df29d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/anagram?source=stte&target=test",
+			"queryParams": [
+				{
+					"key": "source",
+					"value": "stte",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "target",
+					"value": "test",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "21ec7ee4-259e-f2dc-2b42-438c29ee1393",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/anagram?source=test&target=ttes",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1500586101454,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "aa6c7474-f883-aa42-9009-a873ff64d553"
+		},
+		{
+			"id": "fbad7ea7-d8bf-8968-a58a-11c27a0b65cc",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/anagram?source=stte&target=tesi",
+			"queryParams": [
+				{
+					"key": "source",
+					"value": "stte",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "target",
+					"value": "tesi",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "21ec7ee4-259e-f2dc-2b42-438c29ee1393",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/anagram?source=test&target=test1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1500586172595,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
